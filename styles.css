@@ -4,13 +4,19 @@ table, th, td {
   }
   
   table {
-    width: 50%; /* weboldal szélessége */
+    width: 60%; /* weboldal szélessége */
     background-color: rgb(12, 121, 12);  /* háttérszín */
     color: rgb(232, 238, 235); /* betűszín */
     font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
+    font-size: 25px;
   }
   
   th {
     background-color: rgb(35, 85, 143);
+  }
+  #keses{
+    background-color: crimson;
+  }
+  .paratlan_sor{
+    background-color: rgb(109, 165, 26);
   }
