@@ -1,7 +1,10 @@
 table, th, td {
-    border: 1px;
+    border: 6px ridge rgb(10, 75, 172);
     border-collapse: collapse;
   }
+
+  /* sor design */
+
   tbody tr:nth-child(even) {
     background-color: rgb(23, 100, 214);
   }
@@ -9,19 +12,30 @@ table, th, td {
     background-color: rgb(26, 171, 207);
   }
   
+  /* tábla dizájn */
+
   table {
     width: 60%; /* weboldal szélessége */
     background-color: rgb(19, 180, 201);  /* háttérszín */
-    color: rgb(232, 238, 235); /* betűszín */
+    color: rgb(255, 255, 255); /* betűszín */
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
   }
   
+  /* special dizájn */
+
   th {
     background-color: rgb(35, 85, 143);
+    color: rgb(255, 255, 255);
   }
   #keses{
     background-color: crimson;
   }
   #zold{background-color: green;
+  }
+
+  /* középre */
+
+  td {
+    text-align: center;
   }
