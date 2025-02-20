@@ -1,6 +1,12 @@
 table, th, td {
-    border: 1px solid;
+    border: 1px;
     border-collapse: collapse;
+  }
+  tbody tr:nth-child(even) {
+    background-color: rgb(23, 100, 214);
+  }
+  tbody tr:nth-child(odd){
+    background-color: rgb(26, 171, 207);
   }
   
   table {
@@ -17,6 +23,5 @@ table, th, td {
   #keses{
     background-color: crimson;
   }
-  .paratlan_sor{
-    background-color: rgb(26, 98, 165);
+  #zold{background-color: green;
   }
