@@ -1,3 +1,3 @@
 :Máv utstájékoztató
 
-Ez egy gyakorló feledat
+Ez egy gyakorló feledati
